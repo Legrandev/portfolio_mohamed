@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Mohamed BOUSARGHINI</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/profile.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#accueil" class="nav-logo">Mohamed BOUSARGHINI</a>
+            <div class="nav-links">
+                <a href="#accueil">Accueil</a>
+                <a href="#apropos">À propos</a> <!-- Nouveau -->
+                <a href="#competences">Compétences</a>
+                <a href="#parcours">Parcours</a>
+                <a href="#experiences">Expériences</a>
+                <a href="#projets">Projets</a>
+                <a href="#sae">SAE</a>
+                <a href="#contact">Contact</a>
+                <button class="theme-toggle" aria-label="Toggle theme">
+                    <svg class="theme-icon sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path d="M12 17C14.7614 17 17 14.7614 17 12C17 9.23858 14.7614 7 12 7C9.23858 7 7 9.23858 7 12C7 14.7614 9.23858 17 12 17Z" stroke="currentColor" stroke-width="2"/>
+                        <path d="M12 1V3" stroke="currentColor" stroke-width="2"/>
+                        <path d="M12 21V23" stroke="currentColor" stroke-width="2"/>
+                        <path d="M4.22 4.22L5.64 5.64" stroke="currentColor" stroke-width="2"/>
+                        <path d="M18.36 18.36L19.78 19.78" stroke="currentColor" stroke-width="2"/>
+                        <path d="M1 12H3" stroke="currentColor" stroke-width="2"/>
+                        <path d="M21 12H23" stroke="currentColor" stroke-width="2"/>
+                        <path d="M4.22 19.78L5.64 18.36" stroke="currentColor" stroke-width="2"/>
+                        <path d="M18.36 5.64L19.78 4.22" stroke="currentColor" stroke-width="2"/>
+                    </svg>
+                    <svg class="theme-icon moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path d="M21 12.79C20.8427 14.4922 20.2039 16.1144 19.1582 17.4668C18.1126 18.8192 16.7035 19.8458 15.0957 20.4265C13.4879 21.0073 11.748 21.1181 10.0795 20.7461C8.41104 20.3741 6.88299 19.5345 5.67422 18.3258C4.46545 17.117 3.62594 15.589 3.2539 13.9205C2.88186 12.252 2.99274 10.5121 3.57348 8.9043C4.15423 7.29651 5.18085 5.88737 6.53323 4.84175C7.88561 3.79614 9.50779 3.15731 11.21 3C10.2134 4.34827 9.73375 6.00945 9.85843 7.68141C9.98312 9.35338 10.7039 10.9251 11.8894 12.1106C13.0749 13.2961 14.6466 14.0169 16.3186 14.1416C17.9906 14.2662 19.6517 13.7866 21 12.79Z" stroke="currentColor" stroke-width="2"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="accueil" class="hero-section">
+        <div class="hero-content">
+            <div class="profile-image-container">
+                <img src="assets/images/profile.jpg" alt="Mohamed B" class="profile-image">
+            </div>
+            <h1 class="hero-title">
+                Mohamed<br>BOUSARGHINI
+            </h1>
+            <div class="hero-subtitle">
+                <div>But Informatique 2ème année</div>
+                <div>université sorbonne paris nord</div>
+            </div>
+            <div class="location">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                    <circle cx="12" cy="10" r="3"/>
+                </svg>
+                <span>Paris, France</span>
+            </div>
+            <p class="hero-description">
+                Étudiant passionné par le développement et les nouvelles technologies.
+            </p>
+        </div>
+    </section>
+
+    <!-- Section À propos - Après la section Hero -->
+<section id="apropos" class="apropos-section">
+    <div class="container">
+        <div class="apropos-content">
+            <h2 class="section-title">À propos de moi</h2>
+            <div class="apropos-grid">
+                <div class="apropos-text">
+                    <p class="apropos-highlight">
+                        <strong>Passionné par l'informatique et les mathématiques</strong>, je combine 
+                        <strong>rigueur théorique</strong> et <strong>expertise pratique</strong> pour résoudre des problèmes complexes.
+                    </p>
+                    
+                    <div class="apropos-qualities">
+                        <h3>Mes atouts</h3>
+                        <div class="qualities-grid">
+                            <div class="quality-item">
+                                <span class="quality-icon">🎯</span>
+                                <div>
+                                    <strong>Rigueur Analytique</strong>
+                                    <p>Formation en prépa MPSI développant une approche méthodique et structurée</p>
+                                </div>
+                            </div>
+                            <div class="quality-item">
+                                <span class="quality-icon">💻</span>
+                                <div>
+                                    <strong>Expertise Technique</strong>
+                                    <p>Compétences concrètes en développement acquises en BUT Informatique</p>
+                                </div>
+                            </div>
+                            <div class="quality-item">
+                                <span class="quality-icon">🔍</span>
+                                <div>
+                                    <strong>Résolution de Problèmes</strong>
+                                    <p>Approche mathématique pour analyser et résoudre des défis techniques</p>
+                                </div>
+                            </div>
+                            <div class="quality-item">
+                                <span class="quality-icon">🚀</span>
+                                <div>
+                                    <strong>Adaptabilité</strong>
+                                    <p>Capacité à apprendre rapidement et à m'adapter à de nouveaux environnements</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="apropos-parcours">
+                    <h3>Mon parcours unique</h3>
+                    <div class="parcours-item">
+                        <div class="parcours-badge prepa">Prépa MPSI</div>
+                        <div class="parcours-content">
+                            <h4>Fondations théoriques solides</h4>
+                            <ul>
+                                <li>Rigueur mathématique et logique avancée</li>
+                                <li>Capacité d'abstraction et modélisation</li>
+                                <li>Méthodes de travail intensives et efficaces</li>
+                                <li>Gestion du temps et de la pression</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="parcours-item">
+                        <div class="parcours-badge but">BUT Informatique</div>
+                        <div class="parcours-content">
+                            <h4>Expertise pratique approfondie</h4>
+                            <ul>
+                                <li>Développement full-stack et architectures logicielles</li>
+                                <li>Gestion de projets et méthodologies agiles</li>
+                                <li>Réseaux, bases de données et cybersécurité</li>
+                                <li>Travail en équipe et gestion de projet</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="apropos-cta">
+                <p>
+                    <strong>Cette double compétence</strong> me permet d'aborder les problématiques techniques avec 
+                    une vision à la fois <strong>théorique et pratique</strong>, garantissant des solutions 
+                    <strong>optimisées et robustes</strong>.
+                </p>
+                <a href="#contact" class="btn btn-primary">Discutons de votre projet</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Compétences Section -->
+    <section id="competences" class="competences-section">
+        <div class="container">
+            <h2 class="section-title">Compétences</h2>
+            <div class="competences-grid">
+                <div class="competence-card">
+                    <h3 class="competence-title">Langages & Développement</h3>
+                    <ul class="competence-list">
+                        <li class="competence-item">Python</li>
+                        <li class="competence-item">JavaScript</li>
+                        <li class="competence-item">Java</li>
+                        <li class="competence-item">C</li>
+                        <li class="competence-item">SQL</li>
+                        <li class="competence-item">HTML/CSS</li>
+                        <li class="competence-item">BASH</li>
+                        <li class="competence-item">RISC</li>
+                    </ul>
+                </div>
+                
+                <div class="competence-card">
+                    <h3 class="competence-title">Frameworks & Outils</h3>
+                    <ul class="competence-list">
+                        <li class="competence-item">React</li>
+                        <li class="competence-item">Node.js</li>
+                        <li class="competence-item">Flask/Jinja</li>
+                        <li class="competence-item">Git, VS Code</li>
+                        <li class="competence-item">Linux/Unix</li>
+                    </ul>
+                </div>
+                
+                <div class="competence-card">
+                    <h3 class="competence-title">Data Science & Analyse</h3>
+                    <ul class="competence-list">
+                        <li class="competence-item">Pandas</li>
+                        <li class="competence-item">NumPy</li>
+                        <li class="competence-item">Matplotlib</li>
+                        <li class="competence-item">Pyplot</li>
+                    </ul>
+                </div>
+                
+                <div class="competence-card">
+                    <h3 class="competence-title">Bases de Données</h3>
+                    <ul class="competence-list">
+                        <li class="competence-item">PostgreSQL</li>
+                        <li class="competence-item">MySQL</li>
+                        <li class="competence-item">DbDesigner</li>
+                        <li class="competence-item">Looping</li>
+                        <li class="competence-item">Modèle entité-association</li>
+                        <li class="competence-item">Optimisation de requêtes</li>
+                    </ul>
+                </div>
+                
+                <div class="competence-card">
+                    <h3 class="competence-title">Réseau & Infrastructure</h3>
+                    <ul class="competence-list">
+                        <li class="competence-item">Modèles OSI/TCP-IP</li>
+                        <li class="competence-item">Protocoles (IP, TCP/UDP, HTTP)</li>
+                        <li class="competence-item">DNS, DHCP, Routage</li>
+                        <li class="competence-item">Adressage IP</li>
+                        <li class="competence-item">Pare-feu & Sécurité</li>
+                        <li class="competence-item">Architecture réseau</li>
+                    </ul>
+                </div>
+                
+                <div class="competence-card">
+                    <h3 class="competence-title">Conception & Modélisation</h3>
+                    <ul class="competence-list">
+                        <li class="competence-item">Diagramme de classes</li>
+                        <li class="competence-item">Diagramme de cas d'utilisation</li>
+                        <li class="competence-item">Diagramme d'activité</li>
+                    </ul>
+                </div>
+            </div>
+
+            <h2 class="section-title">Langues</h2>
+            <div class="langues-grid">
+    <div class="langue-card">
+        <div class="langue-header">
+            <img src="https://flagcdn.com/w40/fr.png" srcset="https://flagcdn.com/w80/fr.png 2x" width="24" height="18" alt="French flag" class="langue-flag">
+            <h3 class="langue-name">Français</h3>
+        </div>
+        <p class="langue-level">Langue maternelle</p>
+        <p class="langue-description">Maîtrise complète à l'oral et à l'écrit</p>
+    </div>
+    <div class="langue-card">
+        <div class="langue-header">
+            <img src="https://flagcdn.com/w40/gb.png" srcset="https://flagcdn.com/w80/gb.png 2x" width="24" height="18" alt="British flag" class="langue-flag">
+            <h3 class="langue-name">Anglais</h3>
+        </div>
+        <p class="langue-level">Certification TOIEC B1 Avancé</p>
+        <p class="langue-description">Capable de communiquer professionnellement</p>
+    </div>
+    <div class="langue-card">
+        <div class="langue-header">
+            <img src="https://flagcdn.com/w40/sa.png" srcset="https://flagcdn.com/w80/sa.png 2x" width="24" height="18" alt="Saudi Arabian flag" class="langue-flag">
+            <h3 class="langue-name">Arabe</h3>
+        </div>
+        <p class="langue-level">Courant</p>
+        <p class="langue-description">Maîtrise complète à l'oral</p>
+    </div>
+    <div class="langue-card">
+        <div class="langue-header">
+            <img src="https://flagcdn.com/w40/es.png" srcset="https://flagcdn.com/w80/es.png 2x" width="24" height="18" alt="Spanish flag" class="langue-flag">
+            <h3 class="langue-name">Espagnol</h3>
+        </div>
+        <p class="langue-level">Intermédiaire</p>
+        <p class="langue-description">Bonne compréhension de l'espagnol, expression orale basique</p>
+    </div>
+</div>
+        </div>
+    </section>
+
+    <!-- Parcours Section -->
+    <section id="parcours" class="parcours-section">
+        <div class="container">
+            <h2 class="section-title">Parcours Scolaire</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <span class="timeline-date">2024 - Présent</span>
+                        <h3 class="timeline-title">BUT Informatique - 2ème année</h3>
+                        <p class="timeline-subtitle">Université Sorbonne Paris Nord</p>
+                        <p class="text-muted">Recherche de stage et d'alternance</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <span class="timeline-date">2023 - 2024</span>
+                        <h3 class="timeline-title">Prépa MPSI</h3>
+                        <p class="timeline-subtitle">Lycée Gustave Monod - Enghien-Les-Bains</p>
+                        <p class="text-muted">Acquisition de méthodes de travail intensives et de gestion du temps</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <span class="timeline-date">2023</span>
+                        <h3 class="timeline-title">Baccalauréat Général - Mention très bien</h3>
+                        <p class="timeline-subtitle">Lycée Jacques Feyder - Epinay-Sur-Seine</p>
+                        <p class="text-muted">Spécialités : Mathématiques, SI, Physique-Chimie</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Expériences Section -->
+    <section id="experiences" class="experiences-section bg-section">
+        <div class="container">
+            <h2 class="section-title">Expériences Professionnelles</h2>
+            <div class="experiences-list">
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <div class="experience-logo">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/f/fe/Bricodepot.svg" alt="Brico Dépôt Logo">
+                        </div>
+                        <div>
+                            <div class="experience-meta">
+                                <span class="experience-date">Été 2025</span>
+                                <span class="experience-type">Travail</span>
+                            </div>
+                            <h3 class="experience-role">Employé polyvalent - 2 mois</h3>
+                            <p class="experience-company">Brico dépôt</p>
+                        </div>
+                    </div>
+                    <p class="experience-description">
+                        En tant qu'employé polyvalent chez Brico Dépôt, j'ai assuré l'accueil et le conseil des clients afin de les accompagner dans leurs achats. J'ai participé à la mise en rayon et au suivi des stocks, ainsi qu'à la préparation et au contrôle des commandes. Ce poste m'a permis de développer mon sens du service client, ma rigueur et ma capacité à travailler en équipe dans un environnement dynamique tout en respectant les consignes de sécurité.
+                    </p>
+                </div>
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <div class="experience-logo">
+                            <img src="https://user-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_630,w_1200,f_auto,q_auto/1808530/132531_502980.png" alt="Les Astroliens Logo">
+                        </div>
+                        <div>
+                            <div class="experience-meta">
+                                <span class="experience-date">2023</span>
+                                <span class="experience-type">Association</span>
+                            </div>
+                            <h3 class="experience-role">Aide Informatique - 4 mois</h3>
+                            <p class="experience-company">Les Astroliens</p>
+                        </div>
+                    </div>
+                    <p class="experience-description">
+                        J'ai assuré un accompagnement individualisé auprès de personnes âgées dans l'utilisation de leur matériel informatique (smartphones, tablettes, ordinateurs). Cette expérience m'a permis de développer ma patience, ma pédagogie et mon sens de l'écoute afin de répondre à leurs besoins numériques quotidiens.
+                    </p>
+                </div>
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <div class="experience-logo">
+                            <img src="https://www.pagesjaunes.fr/media/newdam/31/6c/7d/00/00/2f/38/01/9a/e4/5d3f316c7d00002f38019ae4/5d3f316c7d00002f38019ae5.jpg" alt="Resto du Cœur Logo">
+                        </div>
+                        <div>
+                            <div class="experience-meta">
+                                <span class="experience-date">2021</span>
+                                <span class="experience-type">Association</span>
+                            </div>
+                            <h3 class="experience-role">Bénévole - 1 semaine</h3>
+                            <p class="experience-company">Resto du Cœur</p>
+                        </div>
+                    </div>
+                    <p class="experience-description">
+                        J'ai participé à l'organisation et à la coordination d'une campagne de collecte de denrées alimentaires, en gérant la logistique sur site, en menant des actions de promotion auprès du public et en régulant l'affluence pour optimiser la participation et la collecte.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projets Section -->
+    <section id="projets" class="projets-section">
+        <div class="container">
+            <h2 class="section-title">Projets Personnels</h2>
+            <div class="projets-grid">
+                <div class="projet-card" data-projet-id="1">
+                    <div class="projet-image">
+                        <img src="https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/72B5ASZ2DNFWPJFJTKWTD644WA.jpg" alt="LolBalancer">
+                        <div class="projet-duration">3 mois</div>
+                    </div>
+                    <div class="projet-content">
+                        <h3 class="projet-title">LolBalancer</h3>
+                        <p class="projet-description">
+                            Développement d'une interface web moderne permettant d'ajouter des joueurs, générer des équipes et gérer les rôles avec un design clair/sombre personnalisable.
+                        </p>
+                        <div class="projet-skills">
+                            <span class="projet-skill">Manipulation de données</span>
+                            <span class="projet-skill">Organisation et modularité du code</span>
+                            <span class="projet-skill">Interface web dynamique</span>
+                        </div>
+                    </div>
+                </div>
+                                <!-- Remplacez le projet vide par celui-ci -->
+                <!-- Dans votre section projets -->
+                <div class="projet-card" data-projet-id="2">
+                    <div class="projet-image">
+                        <img src="assets/images/maths.jpg" alt="Visualisateur d'Équations Différentielles">
+                        <div class="projet-duration">2 semaines</div>
+                    </div>
+                    <div class="projet-content">
+                        <h3 class="projet-title">Visualisateur d'Équations Différentielles</h3>
+                        <p class="projet-description">
+                            Application web interactive pour visualiser et résoudre des équations différentielles ordinaires avec différentes méthodes numériques.
+                        </p>
+                        <div class="projet-skills">
+                            <span class="projet-skill">Python</span>
+                            <span class="projet-skill">Flask</span>
+                            <span class="projet-skill">Matplotlib</span>
+                            <span class="projet-skill">NumPy</span>
+                            <span class="projet-skill">HTML/CSS/JS</span>
+                            <span class="projet-skill">Maths appliquées</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SAE Section -->
+    <section id="sae" class="sae-section">
+        <div class="container">
+            <h2 class="section-title">Situations d'Apprentissage et d'Évaluation</h2>
+            <div class="projets-grid">
+                <div class="projet-card" data-sae-id="1">
+                    <div class="projet-image">
+                        <img src="https://www.apprendre-les-echecs-24h.com/wp-content/uploads/2019/10/comment-jouer-aux-echecs.png" alt="SAE - Jeu d'échecs en Java">
+                        <div class="projet-duration">16/20</div>
+                    </div>
+                    <div class="projet-content">
+                        <h3 class="projet-title">SAE - Jeu d'échecs en Java</h3>
+                        <p class="projet-description">
+                            Création d'un jeu d'échecs en Java en console, intégrant un système de tours, une horloge et la gestion des déplacements, conçu selon une architecture orientée objet modulaire.
+                        </p>
+                        <div class="projet-skills">
+                            <span class="projet-skill">JAVA</span>
+                            <span class="projet-skill">Diagramme de classe</span>
+                            <span class="projet-skill">Interface Console</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="projet-card" data-sae-id="2">
+                    <div class="projet-image">
+                        <img src="https://st2.depositphotos.com/1267016/5599/v/450/depositphotos_55995307-stock-illustration-social-networks-internet-communication-vector.jpg" alt="SAE - Étude d'un réseau social">
+                        <div class="projet-duration">16/20</div>
+                    </div>
+                    <div class="projet-content">
+                        <h3 class="projet-title">SAE - Étude d'un réseau social</h3>
+                        <p class="projet-description">
+                            Réalisation d'une base de données pour un réseau social et création de visualisations Python pour analyser l'engagement des utilisateurs.
+                        </p>
+                        <div class="projet-skills">
+                            <span class="projet-skill">SQL</span>
+                            <span class="projet-skill">Python</span>
+                            <span class="projet-skill">Diagramme entité-association</span>
+                            <span class="projet-skill">Optimisation de requêtes</span>
+                            <span class="projet-skill">Matplotlib</span>
+                            <span class="projet-skill">Pandas</span>
+                            <span class="projet-skill">Numpy</span>
+                            <span class="projet-skill">Looping</span>
+                            <span class="projet-skill">DbDesigner</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="projet-card" data-sae-id="3">
+                    <div class="projet-image">
+                        <img src="https://img.lemde.fr/2013/01/22/15/0/1024/512/1342/671/60/0/ill_1820382_c05d_archives-pierrefitte1.jpg" alt="SAE - Projet Exposition">
+                        <div class="projet-duration">18/20</div>
+                    </div>
+                    <div class="projet-content">
+                        <h3 class="projet-title">SAE - Projet Exposition</h3>
+                        <p class="projet-description">
+                            Projet étudiant autour d'une exposition sur les manuels scolaires, travail en équipe de 6 pour découvrir l'événement, interviewer l'organisateur et créer un compte rendu et un site web.
+                        </p>
+                        <div class="projet-skills">
+                            <span class="projet-skill">Travail en équipe</span>
+                            <span class="projet-skill">HTML/CSS</span>
+                            <span class="projet-skill">Javascript</span>
+                            <span class="projet-skill">Chef d'équipe</span>
+                            <span class="projet-skill">Organisation</span>
+                            <span class="projet-skill">Esprit Critique</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="projet-card" data-sae-id="4">
+                    <div class="projet-image">
+                        <img src="https://img.freepik.com/vecteurs-premium/schema-reseau-social-monde-reseau-social-connecter-gens-idee-connexion-symbole-personnes_797523-1990.jpg?w=360" alt="SAE - Analyse et modélisation d'un réseau social en Python">
+                        <div class="projet-duration">19/20</div>
+                    </div>
+                    <div class="projet-content">
+                        <h3 class="projet-title">SAE - Analyse et modélisation d'un réseau social en Python</h3>
+                        <p class="projet-description">
+                            Projet Python visant à analyser et modéliser un réseau social à partir de données d'interactions entre individus.
+                        </p>
+                        <div class="projet-skills">
+                            <span class="projet-skill">Python</span>
+                            <span class="projet-skill">Optimisation</span>
+                            <span class="projet-skill">Test</span>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <h3>Email</h3>
+                        <a href="mailto:bousarghinimohamed@gmail.com" class="contact-link">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                <polyline points="22,6 12,13 2,6"/>
+                            </svg>
+                            bousarghinimohamed@gmail.com
+                        </a>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Localisation</h3>
+                        <p class="contact-link">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                            Île-de-France, France
+                        </p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Réseaux</h3>
+                        <a href="https://www.linkedin.com/in/mohamedbous/" class="contact-link">LinkedIn</a>
+                        <a href="https://github.com/Legrandev/" class="contact-link">GitHub</a>
+                    </div>
+                </div>
+                <div class="contact-download">
+                    <h3>Curriculum Vitae</h3>
+                    <p class="text-muted">Téléchargez mon CV complet au format PDF pour plus de détails sur mon parcours et mes compétences.</p>
+                    <button class="btn" id="download-cv">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                            <polyline points="7 10 12 15 17 10"/>
+                            <line x1="12" y1="15" x2="12" y2="3"/>
+                        </svg>
+                        Télécharger le CV
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">
+                © 2025 Mohamed BOUSARGHINI. Tous droits réservés.
+            </p>
+        </div>
+    </footer>
+
+    <!-- Modales -->
+    <div id="projet-modal" class="modal-overlay">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title" id="projet-modal-title">Titre du projet</h2>
+                <button class="modal-close" id="projet-modal-close">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path d="M18 6L6 18M6 6l12 12"/>
+                    </svg>
+                </button>
+            </div>
+            <div class="modal-body" id="projet-modal-body">
+                <!-- Le contenu sera inséré par JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <div id="sae-modal" class="modal-overlay">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title" id="sae-modal-title">Titre de la SAE</h2>
+                <button class="modal-close" id="sae-modal-close">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path d="M18 6L6 18M6 6l12 12"/>
+                    </svg>
+                </button>
+            </div>
+            <div class="modal-body" id="sae-modal-body">
+                <!-- Le contenu sera inséré par JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="stars.js"></script>
+</body>
+</html>
