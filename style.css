@@ -1,4 +1,3 @@
-/* style.css - Version nettoyée et optimisée */
 :root {
     /* Couleurs light theme */
     --background: #ffffff;
@@ -139,8 +138,8 @@ body {
 /* Sections */
 section {
     padding: 6rem 1.5rem;
-    background: transparent !important; /* Rendre complètement transparent */
-    backdrop-filter: none !important; /* Supprimer le flou */
+    background: transparent !important; 
+    backdrop-filter: none !important;
 }
 
 [data-theme="dark"] section {
@@ -780,7 +779,6 @@ section {
     }
 }
 
-/* Corrections spécifiques pour les logos */
 .experience-logo[data-company="brico-depot"] {
     padding: 0.5rem 0.25rem;
 }
@@ -801,25 +799,21 @@ section {
     background: #ffffff;
 }
 
-/* Fond blanc uniforme pour le mode jour */
 html[data-theme="light"] body {
     background: #ffffff !important;
 }
 
-/* Supprimer les dégradés bleutés */
 html[data-theme="light"] section {
     background: #ffffff !important;
     backdrop-filter: none !important;
 }
 
-/* Sections avec fond gris très clair uniforme */
 html[data-theme="light"] .bg-section,
 html[data-theme="light"] .sae-section,
 html[data-theme="light"] .experiences-section {
-    background: #f8f9fa !important; /* Gris très clair uniforme */
+    background: #f8f9fa !important;
 }
 
-/* S'assurer que toutes les sections ont un fond uniforme */
 html[data-theme="light"] .competences-section,
 html[data-theme="light"] .parcours-section,
 html[data-theme="light"] .projets-section,
@@ -827,7 +821,6 @@ html[data-theme="light"] .contact-section {
     background: #ffffff !important;
 }
 
-/* Navigation et footer en blanc */
 html[data-theme="light"] .navbar {
     background: rgba(255, 255, 255, 0.95) !important;
     border-bottom: 1px solid #e5e5e5;
@@ -838,7 +831,6 @@ html[data-theme="light"] .footer {
     border-top: 1px solid #e5e5e5;
 }
 
-/* Cartes avec fond blanc pur */
 html[data-theme="light"] .competence-card,
 html[data-theme="light"] .langue-card,
 html[data-theme="light"] .experience-card,
@@ -849,7 +841,6 @@ html[data-theme="light"] .timeline-content {
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
-/* Mode sombre - garder la transparence pour le ciel étoilé */
 /* Section À propos */
 .apropos-section {
     background: rgba(255, 255, 255, 0.8);
@@ -1043,7 +1034,6 @@ html[data-theme="light"] .timeline-content {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
-/* Ajoutez à votre style.css */
 .modal-description {
     color: var(--muted-foreground);
     line-height: 1.6;
@@ -1085,4 +1075,5 @@ html[data-theme="light"] .timeline-content {
 
 .preuve-image {
     text-align: center;
+
 }
