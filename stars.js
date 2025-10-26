@@ -1,4 +1,3 @@
-// stars.js - Version simplifiée avec contrôle du thème
 class Starfield {
     constructor() {
         this.canvas = document.createElement('canvas');
@@ -129,4 +128,5 @@ class Starfield {
 
 document.addEventListener('DOMContentLoaded', () => {
     new Starfield();
+
 });
